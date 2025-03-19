@@ -1679,7 +1679,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-    font-size: var(--text-sm);
+    font-size: var(--text-md);
     font-weight: 600;
     line-height: var(--vspace-0_75);
     text-transform: uppercase;
@@ -2427,8 +2427,8 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: var(--color-btn-primary);
-    border-color: var(--color-btn-primary);
+    background: #10803d;
+    border-color: #10803d;
     color: var(--color-btn-primary-text);
 }
 
@@ -2917,11 +2917,11 @@ input::-moz-focus-inner {
 .section-title h3 {
     z-index: 2;
     font-weight: 500;
-    color: var(--color-1);
+    color: #10803d;
     padding-bottom: 2em;
     margin-top: 0;
     position: absolute;
-    left: 1em;
+    left: 5em;
     bottom: 0;
 }
 
@@ -3122,7 +3122,7 @@ input::-moz-focus-inner {
     transition: all .5s;
     position: absolute;
     left: 8rem;
-    top: calc(50% - 2px);
+    top: calc(50% - 0px);
 }
 
 .s-header__logo a {
@@ -3133,8 +3133,8 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 68px;
-    height: 10px;
+    width: 88px;
+    /*height: 10px;*/
     margin-bottom: 0;
 }
 
@@ -3150,9 +3150,9 @@ input::-moz-focus-inner {
     list-style: none;
     font-family: var(--font-2);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 6rem;
-    padding-top: 1.4rem;
+    padding-top: 0.9rem;
     padding-bottom: 1.4rem;
     margin: 0;
     text-transform: uppercase;
@@ -3536,11 +3536,11 @@ input::-moz-focus-inner {
 }
 
 .s-hero__content h1 {
-    font-size: 22rem;
+    font-size: 17rem;
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
-    color: var(--color-1);
+    color: #10803d;
     margin-bottom: 0;
     position: relative;
 }
@@ -3636,7 +3636,7 @@ input::-moz-focus-inner {
     display: block;
     height: 9.6rem;
     width: 9.6rem;
-    background-color: var(--color-1);
+    background-color: #10803d;
     -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     color: white;
@@ -4035,13 +4035,14 @@ html.no-csstransitions .s-hero__content {
     position: absolute;
     top: -7rem;
     left: calc(6vw + 1px);
+    color: #10803d;
 }
 
 .s-about .horizontal-line::before {
     content: "";
     display: block;
     width: 1px;
-    background-color: var(--color-1-darker);
+    background-color: #10803d;
     position: absolute;
     right: calc(50% + 1px);
     top: 0;
@@ -4090,7 +4091,7 @@ html.no-csstransitions .s-hero__content {
     font-weight: 600;
     text-align: center;
     color: white;
-    background-color: var(--color-1);
+    background-color: #10803d;
     height: var(--vspace-1_5);
     width: var(--vspace-1_5);
     line-height: var(--vspace-1_5);
@@ -4697,7 +4698,7 @@ html.no-csstransitions .s-hero__content {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-1);
+    background-color: #10803d;
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-2);
 }
@@ -4760,6 +4761,7 @@ html.no-csstransitions .s-hero__content {
     padding-top: var(--vspace-2);
     padding-bottom: var(--vspace-4);
     color: white;
+    background-color: #10803d;
 }
 
 .s-footer a {
