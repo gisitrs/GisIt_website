@@ -32,7 +32,7 @@
 
 </head>
 
-<body id="top">
+<body id="top" onload = "translateToLanguage('SRB')">
 
 
     <!-- preloader
@@ -64,6 +64,8 @@
                     <li><a class="smoothscroll" href="#about" title="About">About</a></li>
                     <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
                     <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
+                    <li><a href="#" title="Serbian" onclick="translateToLanguage('SRB')">SRB</a></li>
+                    <li><a href="#" title="English" onclick="translateToLanguage('ENG')">ENG</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
@@ -93,11 +95,13 @@
                 <h1>Hello!</h1>
                 <div class="s-hero__content-about">
 
-                    <p>
+                    <!--<p id="textId7">
                     We are Flare. We love <br>
                     building great brands <br>
                     & digital experiences.
-                    </p>
+                    </p>-->
+
+                    <p id="textId7"></p>
     
                     <footer>
                         <div class="s-hero__content-social">
@@ -654,6 +658,9 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/translate.js"></script>
+    <script src="js/englishText.js"></script>
+    <script src="js/serbianText.js"></script>
 
 </body>
 
