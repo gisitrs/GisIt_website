@@ -4192,22 +4192,22 @@ html.no-csstransitions .s-hero__content {
     background-size: contain;
 }
 
-.service-icon--product-design {
-    background-image: url(../images/icons/services/icon-product-design.svg);
+.service-icon--web-map {
+    background-image: url(../images/icons/services/web-map_green.png);
 }
 
-.service-icon--branding {
-    background-image: url(../images/icons/services/icon-branding.svg);
+.service-icon--photogrammetry {
+    background-image: url(../images/icons/services/photogrammetry_green.png);
 }
 
-.service-icon--frontend {
-    background-image: url(../images/icons/services/icon-frontend.svg);
+.service-icon--lidar {
+    background-image: url(../images/icons/services/lidar_green.png);
 }
 
-.service-icon--research {
-    background-image: url(../images/icons/services/icon-research.svg);
+.service-icon--app-development {
+    background-image: url(../images/icons/services/app-development_green.png);
 }
-
+/*
 .service-icon--illustration {
     background-image: url(../images/icons/services/icon-illustration.svg);
 }
@@ -4215,7 +4215,7 @@ html.no-csstransitions .s-hero__content {
 .service-icon--ecommerce {
     background-image: url(../images/icons/services/icon-ecommerce.svg);
 }
-
+*/
 
 /* ------------------------------------------------------------------- 
  * responsive:
