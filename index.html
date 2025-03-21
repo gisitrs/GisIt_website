@@ -32,7 +32,7 @@
 
 </head>
 
-<body id="top" onload = "translateToLanguage('SRB')">
+<body id="top" onload = "defaultTranslate('SRB')">
 
 
     <!-- preloader
@@ -60,20 +60,20 @@
     
             <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
-                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
-                    <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
-                    <li><a class="smoothscroll" href="#contact" title="Contact">Contact</a></li>
-                    <li><a class="smoothscroll" href="#" title="Contact" style="width:50px;">             </a></li>
-                    <li><a href="#" title="Serbian" onclick="translateToLanguage('SRB')" >SRB</a></li>
-                    <li><a href="#" title="English" onclick="translateToLanguage('ENG')" >ENG</a></li>
+                    <li><a id="textId1" class="smoothscroll" href="#hero" title="Intro">Home</a></li>
+                    <li><a id="textId2" class="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a id="textId3" class="smoothscroll" href="#services" title="Services">Services</a></li>
+                    <li><a id="textId4" class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
+                    <li><a id="textId5" class="smoothscroll" href="#contact" title="Contact">Contact</a></li>
+                    <!--<li><a class="smoothscroll" href="#" title="Contact" style="width:50px;">             </a></li>-->
+                    <!--<li><div title="Serbian" onclick="translateToLanguage('SRB')" style="cursor: pointer;" >SRB</div></li>-->
+                    <li><div id="translateButton" title="English" onclick="translateOnClick()" style="cursor: pointer; margin-left:50px;">SRB</div></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
-
+            
             <a href="mailto:#0" class="btn btn--primary btn--small">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
-                Get In Touch
+                <div id="textId6"></div>
             </a>
 
         </div> <!-- end header-content -->
@@ -96,12 +96,6 @@
 
                 <h1>Hello!</h1>
                 <div class="s-hero__content-about">
-
-                    <!--<p id="textId7">
-                    We are Flare. We love <br>
-                    building great brands <br>
-                    & digital experiences.
-                    </p>-->
 
                     <p id="textId7"></p>
     
@@ -146,21 +140,16 @@
             <div class="column large-12">
 
                 <div class="section-title" data-num="1" data-aos="fade-up">
-                    <h3 class="h6">Who We Are</h3>
+                    <h3 id="textId8" class="h6"></h3>
                 </div>
 
             </div>
 
             <div class="column large-6 w-900-stack s-about__intro-text">
-                <h1 class="display-1" data-aos="fade-up">
-                    Flare is a branding agency based in somewhere. We design thoughtful digital experiences and beautiful brand aesthetics.
+                <h1 id="textId9" class="display-1" data-aos="fade-up">
                 </h1>
 
-                <p class="lead" data-aos="fade-up">
-                    Non amet venenatis dolor id pellentesque mattis erat. Fermentum nunc, 
-                    tincidunt sit elit amet scelerisque. Ac quisque quis eu nibh rutrum 
-                    risus tellus egestas neque. Vestibulum ante ipsum primis in faucibus 
-                    orci luctus et. 
+                <p id="textId10" class="lead" data-aos="fade-up">
                 </p>
             </div>
 
@@ -172,39 +161,19 @@
         <div class="row block-large-1-2 block-tab-full s-about__process item-list">
             <div class="column item item-process" data-aos="fade-up">
                 <h3 class="item-title">Define</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
+                <p id="textId11"></p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
                 <h3 class="item-title">Design</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
+                <p id="textId12"></p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
                 <h3 class="item-title">Build</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
+                <p id="textId13"></p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
                 <h3 class="item-title">Launch</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
+                <p id="textId14"></p>
             </div>
         </div>
 
@@ -337,6 +306,36 @@
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
                 </div>
+                <div class="folio-item" style="display:none;">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-red-wheel_1.jpg" title="Sand Dunes" data-size="1050x700">
+                            <img src="images/portfolio/gallery/g-red-wheel_1.jpg"  alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Branding</div>
+                        <h4 class="folio-item__title">The Red Wheel</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+                <div class="folio-item" style="display:none;">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-red-wheel_2.jpg" title="Sand Dunes" data-size="1050x700">
+                            <img src="images/portfolio/gallery/g-red-wheel_2.jpg"  alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Branding</div>
+                        <h4 class="folio-item__title">The Red Wheel</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
             </div> <!-- end column -->
             <div class="column" data-aos="fade-up">
                 <div class="folio-item">
@@ -344,6 +343,36 @@
                         <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-music-life.jpg" title="Music Life" data-size="1050x700">
                             <img src="images/portfolio/music-life.jpg" 
                                  srcset="images/portfolio/music-life.jpg 1x, images/portfolio/music-life@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend Design</div>
+                        <h4 class="folio-item__title">Music Life</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-music-life_1.jpg" title="Music Life" data-size="1050x700">
+                            <img src="images/portfolio/gallery/g-music-life_1.jpg"  alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend Design</div>
+                        <h4 class="folio-item__title">Music Life</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-music-life_2.jpg" title="Music Life" data-size="1050x700">
+                            <img src="images/portfolio/gallery/g-music-life_2.jpg" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
