@@ -3601,7 +3601,7 @@ input::-moz-focus-inner {
 
 .s-hero__content-social a:hover, 
 .s-hero__content-social a:focus {
-    color: var(--color-1-light);
+    color: #10803d;
 }
 
 .s-hero__content-social a:last-child {
