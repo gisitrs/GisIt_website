@@ -31,4 +31,14 @@ function translateToLanguage(languageTexts){
     document.getElementById("textId12").innerHTML = languageTexts.textId12;
     document.getElementById("textId13").innerHTML = languageTexts.textId13;
     document.getElementById("textId14").innerHTML = languageTexts.textId14;
+    document.getElementById("textId15").innerHTML = languageTexts.textId3;
+    document.getElementById("textId16").innerHTML = languageTexts.textId16;
+    document.getElementById("textId17").innerHTML = languageTexts.textId17;
+    document.getElementById("textId18").innerHTML = languageTexts.textId18;
+    document.getElementById("textId19").innerHTML = languageTexts.textId19;
+    document.getElementById("textId20").innerHTML = languageTexts.textId20;
+    document.getElementById("textId21").innerHTML = languageTexts.textId21;
+    document.getElementById("textId22").innerHTML = languageTexts.textId22;
+    document.getElementById("textId23").innerHTML = languageTexts.textId23;
+    document.getElementById("textId24").innerHTML = languageTexts.textId4;
 }

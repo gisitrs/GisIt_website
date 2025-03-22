@@ -58,7 +58,7 @@
 
         <div class="s-header__content">
     
-            <nav class="s-header__nav-wrap">
+            <nav class="s-header__nav-wrap" >
                 <ul class="s-header__nav">
                     <li><a id="textId1" class="smoothscroll" href="#hero" title="Intro">Home</a></li>
                     <li><a id="textId2" class="smoothscroll" href="#about" title="About">About</a></li>
@@ -66,14 +66,16 @@
                     <li><a id="textId4" class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
                     <li><a id="textId5" class="smoothscroll" href="#contact" title="Contact">Contact</a></li>
                     <!--<li><a class="smoothscroll" href="#" title="Contact" style="width:50px;">             </a></li>-->
-                    <!--<li><div title="Serbian" onclick="translateToLanguage('SRB')" style="cursor: pointer;" >SRB</div></li>-->
-                    <li><div id="translateButton" title="English" onclick="translateOnClick()" style="cursor: pointer; margin-left:50px;">SRB</div></li>
+                    <!--<li><div title="Serbian" onclick="translateToLanguage('SRB')" style="cursor: pointer;" >SRB</div></li>
+                    <li><div id="translateButton" title="English" onclick="translateOnClick()" style="cursor: pointer; margin-left:50px;">SRB</div></li>-->
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
             
+            <div id="translateButton" onclick="translateOnClick()" class="btn btn--primary btn--small" >SRB</div>
+            
             <a href="mailto:#0" class="btn btn--primary btn--small">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
-                <div id="textId6"></div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="display: inline-block;"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
+                <div id="textId6" style="display: inline-block;"></div>
             </a>
 
         </div> <!-- end header-content -->
@@ -187,85 +189,35 @@
         <div class="row">
             <div class="column large-12">
                 <div class="section-title" data-num="2" data-aos="fade-up">
-                    <h3 class="h6">Our Expertise</h3>
+                    <h3 id="textId15" class="h6"></h3>
                 </div>
             </div>
             <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
-                    Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                    Quis dolores totam voluptatibus. 
+                <h1 id="textId16" class="display-1" data-aos="fade-up">
                 </h1>
             </div>
             <div class="column large-6 w-900-stack">
-                <p class="lead" data-aos="fade-up">
-                Velit deleniti harum sit beatae sint repellendus expedita. Omnis possimus 
-                sed rerum tenetur ea ab aut minima magnam. Deserunt sit cupiditate 
-                similique eveniet earum. Consectetur dolores maxime quisquam voluptate magni.
-                Ut ex unde rem quod ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                <p id="textId17" class="lead" data-aos="fade-up">
                 </p>
             </div>
         </div>
 
         <div class="row block-large-1-2 block-tab-full s-services__services item-list">
             <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--product-design"></span>
-                <h3 class="item-title">Product Design</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--branding"></span>
-                <h3 class="item-title">Branding</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                <h3 id="textId18" class="item-title"></h3>
+                <p id="textId19">
                 </p>
             </div>
             <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--frontend"></span>
-                <h3 class="item-title">Frontend Development</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
+                <h3 id="textId20" class="item-title"></h3>
+                <p id="textId21"></p>
             </div>
             <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--research"></span>
-                <h3 class="item-title">UX Research</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--illustration"></span>
-                <h3 class="item-title">Illustration</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--ecommerce"></span>
-                <h3 class="item-title">E-Commerce</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
+                <h3 id="textId22" class="item-title"></h3>
+                <p id="textId23"></p>
             </div>
         </div>
 
@@ -276,7 +228,7 @@
         <div class="row s-porfolio__top">
             <div class="column large-6 w-900-stack">
                 <div class="section-title" data-num="3" data-aos="fade-up">
-                    <h3 class="h6">Recent Works</h3>
+                    <h3 id="textId24" class="h6"></h3>
                 </div>
             </div>
             <div class="column large-6 w-900-stack">
