@@ -20,7 +20,7 @@ class englishText {
     textId14a = "Support and Collaboration";
     textId14 = "We’re not just here to get the job done and move on – we’re here to be partners every step of the way. Our door is always open, whether it’s for questions during the project or support afterward.";
     textId16 = "We offer clients advanced solutions in the fields of GIS, photogrammetry, and LiDAR technology, enabling precise analysis and visualization of spatial data."
-    textId17 = "Through the development and implementation of innovative web applications, as well as specialized data capture, mapping, and processing services, we optimize efficiency and accuracy for all types of engineering and research projects."
+    textId17 = "Through the development and implementation of innovative web applications, as well as specialized data capture, mapping, and processing services, we optimize efficiency and accuracy for all types of engineering and research projects.";
     textId18a = "WebGIS";
     textId18b = "We offer a wide range of services, including the development and implementation of WEB GIS solutions, which enable users to easily access, visualize, and analyze spatial data through interactive web applications. In this way, we allow clients to manage geographic data quickly and efficiently, without the need for specialized software.";
     textId18 = "Photogrammetry";
@@ -29,5 +29,11 @@ class englishText {
     textId21 = "Our team is specialized in the processing, classification, and vectorization of LiDAR data. Our expertise in working with LiDAR technology allows us to create accurate 3D models of terrain, objects, and infrastructure, which is essential for projects in engineering, urban planning, and environmental protection.";
     textId22 = "Web sites and applications";
     textId23 = "In addition to our specialized services in GIS, LiDAR, and photogrammetry, we also provide website development, business process automation, and application development services. Our team is proficient in creating modern, functional websites optimized for the best user experience. We also automate business processes, enabling our clients to increase efficiency, reduce manual work, and optimize daily operations. Furthermore, we develop custom applications that meet the specific needs of our clients, whether for business applications, GIS platforms, or tools for data analysis and visualization.";
-    textId25 = "Here are some of our projects we done lately. Feel free to check them out."
+    textId25 = "Here are some of our projects we done lately. Feel free to check them out.";
+    textId26 = "GIS analysis";
+    textId27 = "Solar power potential analysis";
+    textId28 = "- Determine Solar Power Potential (SPP) of the roof or any other surface.<br>- SPP is determined based on sun exposure of the surface depending on objects in closer environment and geographical width of the location.<br>- Valid input for this analysis are various datasets that contain elevation data (DEM, DSM, TIN etc.).";
+    textId29 = "3D modeling";
+    textId30 = "Creating digital terrain models";
+    textId31 = "- Creating terrain models in Civil3D or ArcGIS based on various data sets (LiDAR point clouds, rasters, terrain surveys).<br>- Models provide a precise representation of the terrain, helping engineers, planners, scientists in decision making.";
 }

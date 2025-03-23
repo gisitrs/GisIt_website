@@ -50,4 +50,10 @@ function translateToLanguage(languageTexts){
     document.getElementById("textId23").innerHTML = languageTexts.textId23;
     document.getElementById("textId24").innerHTML = languageTexts.textId4;
     document.getElementById("textId25").innerHTML = languageTexts.textId25;
+    document.getElementById("textId26").innerHTML = languageTexts.textId26;
+    document.getElementById("textId27").innerHTML = languageTexts.textId27;
+    document.getElementById("textId28").innerHTML = languageTexts.textId28;
+    document.getElementById("textId29").innerHTML = languageTexts.textId29;
+    document.getElementById("textId30").innerHTML = languageTexts.textId30;
+    document.getElementById("textId31").innerHTML = languageTexts.textId31;
 }
