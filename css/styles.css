@@ -3486,7 +3486,7 @@ input::-moz-focus-inner {
 }
 
 .s-hero__bg {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(../images/dtm.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3494,7 +3494,7 @@ input::-moz-focus-inner {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 36.5vw;
+    left: 45vw;
 }
 
 .s-hero__bg::after {
@@ -3567,7 +3567,8 @@ input::-moz-focus-inner {
     font-size: 3.6rem;
     line-height: 1.444;
     color: var(--color-white);
-    padding-left: 3.6em;
+    padding-top: 1em;
+    /*padding-left: 3.6em;*/
     position: relative;
 }
 
@@ -4058,7 +4059,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../images/about-photo.jpg);
+    background-image: url(../images/drone.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

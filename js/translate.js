@@ -22,9 +22,10 @@ function translateToLanguage(languageTexts){
     document.getElementById("textId3").innerHTML = languageTexts.textId3;
     document.getElementById("textId4").innerHTML = languageTexts.textId4;
     document.getElementById("textId5").innerHTML = languageTexts.textId5;
-    document.getElementById("textId6").innerHTML = languageTexts.textId6;
+    //document.getElementById("textId6").innerHTML = languageTexts.textId6;
     document.getElementById("textId7a").innerHTML = languageTexts.textId7a; 
     document.getElementById("textId7").innerHTML = languageTexts.textId7; 
+    document.getElementById("textId8a").innerHTML = languageTexts.textId8a; 
     document.getElementById("textId8").innerHTML = languageTexts.textId2;
     document.getElementById("textId9").innerHTML = languageTexts.textId9;
     document.getElementById("textId10").innerHTML = languageTexts.textId10;
@@ -48,4 +49,5 @@ function translateToLanguage(languageTexts){
     document.getElementById("textId22").innerHTML = languageTexts.textId22;
     document.getElementById("textId23").innerHTML = languageTexts.textId23;
     document.getElementById("textId24").innerHTML = languageTexts.textId4;
+    document.getElementById("textId25").innerHTML = languageTexts.textId25;
 }
