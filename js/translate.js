@@ -56,4 +56,13 @@ function translateToLanguage(languageTexts){
     document.getElementById("textId29").innerHTML = languageTexts.textId29;
     document.getElementById("textId30").innerHTML = languageTexts.textId30;
     document.getElementById("textId31").innerHTML = languageTexts.textId31;
+    document.getElementById("textId32").innerHTML = languageTexts.textId32;
+    document.getElementById("textId33").innerHTML = languageTexts.textId33;
+    document.getElementById("textId34").innerHTML = languageTexts.textId34;
+    document.getElementById("textId35").innerHTML = languageTexts.textId35;
+    document.getElementById("textId36").innerHTML = languageTexts.textId36;
+    document.getElementById("textId37").innerHTML = languageTexts.textId37;
+    document.getElementById("textId38").innerHTML = languageTexts.textId38;
+    document.getElementById("textId39").innerHTML = languageTexts.textId39;
+    document.getElementById("textId40").innerHTML = languageTexts.textId40;
 }

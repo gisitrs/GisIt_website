@@ -36,4 +36,13 @@ class englishText {
     textId29 = "3D modeling";
     textId30 = "Creating digital terrain models";
     textId31 = "- Creating terrain models in Civil3D or ArcGIS based on various data sets (LiDAR point clouds, rasters, terrain surveys).<br>- Models provide a precise representation of the terrain, helping engineers, planners, scientists in decision making.";
+    textId32 = "Point cloud";
+    textId33 = "LiDAR point cloud conversion to 2D/3D site plan";
+    textId34 = "- Point cloud digitization<br>- Processing point cloud to extract necessary elements for producing topography map<br>- Creating site plan in required software (AutoCAD, Civil3D, ArcGIS, QGIS)<br>- Preparing layouts in different formats appropriate for desired form of data presentation (PDF documents, web map etc.)";
+    textId35 = "Point cloud";
+    textId36 = "Point cloud classification";
+    textId37 = "- Point cloud classification is usually a semi-automated process, with the level of automation defined by the pre-processing quality of the point cloud.<br>- Classifying LiDAR point clouds can be beneficial for a variety of reasons: improving data analysis, enhancing visualization and mapping possibilities, enables automation of processing, better understanding the data and data filtering.";
+    textId38 = "Photogrammetry";
+    textId39 = "Data collection and creating 3D models using photogrammetry";
+    textId40 = "- Planning flight mission and conducting drone flight over the area in order to collect images for 3D model creation.<br>- Measuring GCP and check points using GPS device in order to correctly georeference 3D model and ensure it's accuracy.<br>- Processing collected data and creating 3D model, beside other necessary deliverables such as orthophoto, digital elevation or surface model and contour lines<br>- Overlaying exported deliverables with other spatial data sources (cadastre data, zoning etc.) which contributes in decision making process.";
 }

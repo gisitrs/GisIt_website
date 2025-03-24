@@ -36,4 +36,13 @@ class serbianText {
     textId29 = "3D modeliranje";
     textId30 = "Izrada digitalnih modela terena";
     textId31 = "- Kreiranje modela terena u Civil3D-u ili ArcGIS-u na osnovu raznih setova podataka (LiDAR oblaka tačaka, rastera, geodetskih merenja).<br>- Modeli nude preciznu prezentaciju terena, pomažući inženjerima, planerima i naučnicima u procesu donošenja odluka.";
+    textId32 = "Oblak tačaka";
+    textId33 = "Konverzija oblaka tačaka u 2D/3D plan";
+    textId34 = "- Kreiranje modela terena u Civil3D-u ili ArcGIS-u na osnovu raznih setova podataka (LiDAR oblaka tačaka, rastera, geodetskih merenja).<br>- Modeli nude preciznu prezentaciju terena, pomažući inženjerima, planerima i naučnicima u procesu donošenja odluka.";
+    textId35 = "Oblak tačaka";
+    textId36 = "Klasifikacija oblaka tačaka";
+    textId37 = "- Klasifikacija oblaka tačaka je uglavnom polu-automatski proces, gde je mogućnost automatizacije definisan kvalitetom pre-procesiranja oblaka tačaka.<br>- Klasifikovan oblak tačaka nudi nekoliko benefita: unapređuje analizu podataka, mogućnost mapiranja i vizulelizacije, omogućava automatizaciju procesiranja, filtriranje i bolje razumevanje podataka.";
+    textId38 = "Fotogrametrija";
+    textId39 = "Prikupljanje podataka i kreiranje 3D modela korišćenjem fotogrametrije";
+    textId34 = "- Planiranje misije i izvršavanje plana letenja sa ciljem prikupljanja fotografija za kreiranje 3D modela.<br>- Merenje orijentacionih i kontrolnih tačaka korišćenjem GPS uređaja radi georeferenciranja i utvrđivanja tačnosti modela.<br>- Procesiranje podataka i kreiranje 3D modela kao i drugih produkata kao što su ortofoto, digitalni model visina i izohipse.<br>- Preklapanje ovih produkata sa drugim prostornim podacima (digitalni katastarski plan, zoniranje itd.) neophodnih za donošenja odluka.";
 }
