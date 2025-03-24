@@ -7,7 +7,7 @@ class serbianText {
     textId5 = "Kontakt";
     //textId6 = "Poruka";
     textId7a = "Hej!";
-    textId7 = "Mi smo GisIt.<br>Mi razmišljamo prostorno<br>i pravimo sjajne aplikacije.";
+    textId7 = "Mi smo GisIt.<br> Mi razmišljamo prostorno<br> i pravimo sjajne aplikacije.";
     textId8a = "Nastavi dalje";
     textId9 = "GisIt je agencija specijalizovana za pružanje IT usluga iz oblasti Geografskih Informacionih Sistema (GIS), ali i povezanih oblasti kao što su fotogrametrija i LiDAR tehnologija.";
     textId10 = "Naša misija je da unapredimo poslovne procese naših klijenata kroz inovativna tehnološka rešenja koja pomažu u unapređenju njihovih poslovnih procesa i donošenju informisanih i pravovremenih poslovnih odluka.";
@@ -44,5 +44,11 @@ class serbianText {
     textId37 = "- Klasifikacija oblaka tačaka je uglavnom polu-automatski proces, gde je mogućnost automatizacije definisan kvalitetom pre-procesiranja oblaka tačaka.<br>- Klasifikovan oblak tačaka nudi nekoliko benefita: unapređuje analizu podataka, mogućnost mapiranja i vizulelizacije, omogućava automatizaciju procesiranja, filtriranje i bolje razumevanje podataka.";
     textId38 = "Fotogrametrija";
     textId39 = "Prikupljanje podataka i kreiranje 3D modela korišćenjem fotogrametrije";
-    textId34 = "- Planiranje misije i izvršavanje plana letenja sa ciljem prikupljanja fotografija za kreiranje 3D modela.<br>- Merenje orijentacionih i kontrolnih tačaka korišćenjem GPS uređaja radi georeferenciranja i utvrđivanja tačnosti modela.<br>- Procesiranje podataka i kreiranje 3D modela kao i drugih produkata kao što su ortofoto, digitalni model visina i izohipse.<br>- Preklapanje ovih produkata sa drugim prostornim podacima (digitalni katastarski plan, zoniranje itd.) neophodnih za donošenja odluka.";
+    textId40 = "- Planiranje misije i izvršavanje plana letenja sa ciljem prikupljanja fotografija za kreiranje 3D modela.<br>- Merenje orijentacionih i kontrolnih tačaka korišćenjem GPS uređaja radi georeferenciranja i utvrđivanja tačnosti modela.<br>- Procesiranje podataka i kreiranje 3D modela kao i drugih produkata kao što su ortofoto, digitalni model visina i izohipse.<br>- Preklapanje ovih produkata sa drugim prostornim podacima (digitalni katastarski plan, zoniranje itd.) neophodnih za donošenja odluka.";
+    textId42 = "Imate neku ideju ili sjajan projekat na umu?<br>Javite nam se da razgovaramo i realizujemo ih!<br>Pošaljite nam e-mail na";
+    textId43 = "O agenciji";
+    textId44 = "STEFAN STAMENKOVIĆ PR AGENCIJA ZA INŽENJERSKO SAVETOVANJE I TEHNIČKA REŠENJA U OBLASTI GEOMATIKE I INFORMACIONIH TEHNOLOGIJA GISIT SOKOBANJA<br>PIB: 114764649<br>Matični broj: 67837169<br>";
+    textId45 = "Kontaktirajte nas";
+    textId46 = "Sadržaj sajta je u vlasništvu GisIt";
+    textId47 = "Kreirao <a href=\"https://www.gisit.rs/\">GisIt</a>";
 }

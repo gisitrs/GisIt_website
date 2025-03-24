@@ -7,7 +7,7 @@ class englishText {
     textId5 = "Contact";
     //textId6 = "Message";
     textId7a = "Hello!";
-    textId7 = "We are GisIt.<br>We think spatially<br>& build great apps.";
+    textId7 = "We are GisIt.<br> We think spatially<br> & build great apps.";
     textId8a = "Scroll Down";
     textId9 = "GisIt is an agency specialized in providing IT services in the field of Geographic Information Systems (GIS), as well as related areas such as photogrammetry and LiDAR technology.";
     textId10 = "Our mission is to enhance our clients' business processes through innovative technological solutions that assist in improving their operations and making informed, timely business decisions.";
@@ -45,4 +45,10 @@ class englishText {
     textId38 = "Photogrammetry";
     textId39 = "Data collection and creating 3D models using photogrammetry";
     textId40 = "- Planning flight mission and conducting drone flight over the area in order to collect images for 3D model creation.<br>- Measuring GCP and check points using GPS device in order to correctly georeference 3D model and ensure it's accuracy.<br>- Processing collected data and creating 3D model, beside other necessary deliverables such as orthophoto, digital elevation or surface model and contour lines<br>- Overlaying exported deliverables with other spatial data sources (cadastre data, zoning etc.) which contributes in decision making process.";
+    textId42 = "Have an idea or an epic project in mind?<br>Let's work together and make it real!<br>Send us an e-amil at";
+    textId43 = "About agency";
+    textId44 = "STEFAN STAMENKOVIĆ PR AGENCIJA ZA INŽENJERSKO SAVETOVANJE I TEHNIČKA REŠENJA U OBLASTI GEOMATIKE I INFORMACIONIH TEHNOLOGIJA GISIT SOKOBANJA<br>TIN: 114764649<br>Reg. number: 67837169<br>";
+    textId45 = "Contact us";
+    textId46 = "Copyright GisIt";
+    textId47 = "Created by <a href=\"https://www.gisit.rs/\">GisIt</a>";
 }
