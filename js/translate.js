@@ -1,10 +1,14 @@
+var selectedLanguage1 = 'SRB';
+
 function defaultTranslate(language){
     var languageTexts;
     if (language == 'SRB'){
         languageTexts = new serbianText();
+        selectedLanguage1 = 'SRB';
     }
     else if (language == 'ENG'){
         languageTexts = new englishText();
+        selectedLanguage1 = 'ENG';
     }
 
     translateToLanguage(languageTexts);

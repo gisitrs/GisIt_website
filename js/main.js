@@ -133,23 +133,60 @@
    /* photoswipe
     * ----------------------------------------------------- */
     const ssPhotoswipe = function() {
+        var finalItems = [];
+        var serbianTexts = new serbianText();
+        var englishTexts = new englishText();
+
         const items = [],
+              itemsEng = [],
               $pswp = $('.pswp')[0],
               $folioItems = $('.folio-item');
 
         // get items
         $folioItems.each( function(i) {
-
             let $folio = $(this),
                 $thumbLink =  $folio.find('.folio-item__thumb-link'),
                 $title = $folio.find('.folio-item__title'),
                 $caption = $folio.find('.folio-item__caption'),
                 $titleText = '<h4>' + $.trim($title.html()) + '</h4>',
+                $titleEngText = '<h4>' + $.trim($title.html()) + '</h4>',
                 $captionText = $.trim($caption.html()),
+                $captionEngText = $.trim($caption.html()),
                 $href = $thumbLink.attr('href'),
                 $size = $thumbLink.data('size').split('x'),
                 $width  = $size[0],
                 $height = $size[1];
+                
+                if (i == 0 || i == 1){
+                    $titleText = '<h4>' + serbianTexts.textId27 + '</h4>';
+                    $titleEngText = '<h4>' + englishTexts.textId27 + '</h4>';
+                    $captionText = serbianTexts.textId28;
+                    $captionEngText = englishTexts.textId28;
+                }
+                else if (i == 2 || i == 3){
+                    $titleText = '<h4>' + serbianTexts.textId30 + '</h4>';
+                    $titleEngText = '<h4>' + englishTexts.textId30 + '</h4>';
+                    $captionText = serbianTexts.textId31;
+                    $captionEngText = englishTexts.textId31;
+                }
+                else if (i == 4 || i == 5){
+                    $titleText = '<h4>' + serbianTexts.textId33 + '</h4>';
+                    $titleEngText = '<h4>' + englishTexts.textId33 + '</h4>';
+                    $captionText = serbianTexts.textId34;
+                    $captionEngText = englishTexts.textId34;
+                }
+                else if (i == 6 || i == 7){
+                    $titleText = '<h4>' + serbianTexts.textId36 + '</h4>';
+                    $titleEngText = '<h4>' + englishTexts.textId36 + '</h4>';
+                    $captionText = serbianTexts.textId37;
+                    $captionEngText = englishTexts.textId37;
+                }
+                else if (i == 8 || i == 9){
+                    $titleText = '<h4>' + serbianTexts.textId39 + '</h4>';
+                    $titleEngText = '<h4>' + englishTexts.textId39 + '</h4>';
+                    $captionText = serbianTexts.textId40;
+                    $captionEngText = englishTexts.textId40;
+                }
         
             let item = {
                 src  : $href,
@@ -161,21 +198,40 @@
                 item.title = $.trim($titleText + $captionText);
             }
 
+            let itemEng = {
+                src  : $href,
+                w    : $width,
+                h    : $height
+            }
+
+            if ($caption.length > 0) {
+                itemEng.title = $.trim($titleEngText + $captionEngText);
+            }
+
             items.push(item);
+            itemsEng.push(itemEng);
         });
 
         // bind click event
         $folioItems.each(function(i) {
 
             $(this).find('.folio-item__thumb-link').on('click', function(e) {
+                //alert(selectedLanguage1);
                 e.preventDefault();
                 let options = {
                     index: i,
                     showHideOpacity: true
                 }
 
+                if (selectedLanguage1 == 'SRB'){
+                    finalItems = items;
+                }
+                else {
+                    finalItems = itemsEng;
+                }
+
                 // initialize PhotoSwipe
-                let lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
+                let lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, finalItems, options);
                 lightBox.init();
             });
 
