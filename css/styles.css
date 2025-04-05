@@ -615,6 +615,8 @@ html {
     font-size: 62.5%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    scrollbar-width: thin; /* Options: auto, thin, none */
+    scrollbar-color: #4CAF50 #f1f1f1;
 }
 
 *, *::before, *::after {
@@ -4970,41 +4972,3 @@ html.no-csstransitions .s-hero__content {
         font-size: 1.4rem;
     }
 }
-
-/* Webkit-based browsers (Chrome, Safari, Edge) */
-::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
-    height: 12px; /* Height of the scrollbar for horizontal scroll */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #4CAF50; /* Green color for the thumb */
-    border-radius: 10px; /* Round corners */
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Light grey color for the track */
-  }
-  
-/* Firefox */
-.range-slider::-moz-range-track {
-    height: 10px;             /* Height of the slider's track */
-    background: #ddd;         /* Background color of the track */
-    border-radius: 5px;       /* Rounded corners for the track */
-  }
-  
-  .range-slider::-moz-range-thumb {
-    width: 20px;              /* Thumb width */
-    height: 20px;             /* Thumb height */
-    background: #4CAF50;      /* Thumb color */
-    border-radius: 50%;       /* Make the thumb circular */
-    cursor: pointer;         /* Pointer cursor */
-  }
-
-  input[type="range"]::-webkit-slider-thumb {
-    background: #4CAF50; /* Green color */
-  }
-  
-  input[type="range"]::-moz-range-thumb {
-    background: #4CAF50 !important; /* Green thumb color */
-  }
