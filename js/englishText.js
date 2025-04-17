@@ -45,10 +45,13 @@ class englishText {
     textId38 = "Photogrammetry";
     textId39 = "Data collection and creating 3D models using photogrammetry";
     textId40 = "- Planning flight mission and conducting drone flight over the area in order to collect images for 3D model creation.<br>- Measuring GCP and check points using GPS device in order to correctly georeference 3D model and ensure it's accuracy.<br>- Processing collected data and creating 3D model, beside other necessary deliverables such as orthophoto, digital elevation or surface model and contour lines<br>- Overlaying exported deliverables with other spatial data sources (cadastre data, zoning etc.) which contributes in decision making process.";
+    textId48 = "GIS";
+    textId49 = "Development of geoinformation systems and data mapping";
+    textId50 = "- Mapping and georeferencing data based on existing plans or through digitization of satellite imagery.<br>- Identifying relevant attributes and populating tables with numerical data.<br>- Linking spatial features with numerical data from other datasources.<br>- Performing spatial analyses to determine relationships between existing datasets, and to create new data.";
     textId42 = "Have an idea or an epic project in mind?<br>Let's work together and make it real!<br>Send us an e-amil at";
     textId43 = "About agency";
     textId44 = "STEFAN STAMENKOVIĆ PR AGENCIJA ZA INŽENJERSKO SAVETOVANJE I TEHNIČKA REŠENJA U OBLASTI GEOMATIKE I INFORMACIONIH TEHNOLOGIJA GISIT SOKOBANJA<br>TIN: 114764649<br>Reg. number: 67837169<br>";
     textId45 = "Contact us";
-    textId46 = "Copyright GisIt";
-    textId47 = "Created by <a href=\"https://www.gisit.rs/\">GisIt</a>";
+    textId46 = "Copyright GisIt © 2025";
+    //stextId47 = "Created by <a href=\"https://www.gisit.rs/\">GisIt</a>";
 }

@@ -45,10 +45,13 @@ class serbianText {
     textId38 = "Fotogrametrija";
     textId39 = "Prikupljanje podataka i kreiranje 3D modela korišćenjem fotogrametrije";
     textId40 = "- Planiranje misije i izvršavanje plana letenja sa ciljem prikupljanja fotografija za kreiranje 3D modela.<br>- Merenje orijentacionih i kontrolnih tačaka korišćenjem GPS uređaja radi georeferenciranja i utvrđivanja tačnosti modela.<br>- Procesiranje podataka i kreiranje 3D modela kao i drugih produkata kao što su ortofoto, digitalni model visina i izohipse.<br>- Preklapanje ovih produkata sa drugim prostornim podacima (digitalni katastarski plan, zoniranje itd.) neophodnih za donošenja odluka.";
+    textId48 = "GIS";
+    textId49 = "Izrada geoinformacionih sistema i mapiranje podataka";
+    textId50 = "- Mapiranje i georeferenciranje podataka na osnovu postojećih planova ili digitalizacijom satelitskih snimaka.<br>- Definisanje relevantnih atributa i popunjavanje tabele numeričkim podacima.<br>- Povezivanje prostornih elemenata sa numeričkim podacima iz drugih izvora.<br>- Izvršavanje prostornih analiza sa ciljem utvrđivanja odnosa između postojećih kao i kreiranje novih podataka.";
     textId42 = "Imate neku ideju ili sjajan projekat na umu?<br>Javite nam se da razgovaramo i realizujemo ih!<br>Pošaljite nam e-mail na";
     textId43 = "O agenciji";
     textId44 = "STEFAN STAMENKOVIĆ PR AGENCIJA ZA INŽENJERSKO SAVETOVANJE I TEHNIČKA REŠENJA U OBLASTI GEOMATIKE I INFORMACIONIH TEHNOLOGIJA GISIT SOKOBANJA<br>PIB: 114764649<br>Matični broj: 67837169<br>";
     textId45 = "Kontaktirajte nas";
-    textId46 = "Sadržaj sajta je u vlasništvu GisIt";
-    textId47 = "Kreirao <a href=\"https://www.gisit.rs/\">GisIt</a>";
+    textId46 = "Sadržaj sajta je u vlasništvu GisIt © 2025";
+    //textId47 = "Kreirao <a href=\"https://www.gisit.rs/\">GisIt</a>";
 }
