@@ -187,6 +187,12 @@
                     $captionText = serbianTexts.textId40;
                     $captionEngText = englishTexts.textId40;
                 }
+                else if (i == 10){
+                    $titleText = '<h4>' + serbianTexts.textId49 + '</h4>';
+                    $titleEngText = '<h4>' + englishTexts.textId49 + '</h4>';
+                    $captionText = serbianTexts.textId50;
+                    $captionEngText = englishTexts.textId50;
+                }
         
             let item = {
                 src  : $href,

@@ -48,7 +48,7 @@ class englishText {
     textId48 = "GIS";
     textId49 = "Development of geoinformation systems and data mapping";
     textId50 = "- Mapping and georeferencing data based on existing plans or through digitization of satellite imagery.<br>- Identifying relevant attributes and populating tables with numerical data.<br>- Linking spatial features with numerical data from other datasources.<br>- Performing spatial analyses to determine relationships between existing datasets, and to create new data.";
-    textId42 = "Have an idea or an epic project in mind?<br>Let's work together and make it real!<br>Send us an e-amil at";
+    textId42 = "Have an idea or an epic project in mind?<br>Let's work together and make it real!<br>Send us an e-mail at";
     textId43 = "About agency";
     textId44 = "STEFAN STAMENKOVIĆ PR AGENCIJA ZA INŽENJERSKO SAVETOVANJE I TEHNIČKA REŠENJA U OBLASTI GEOMATIKE I INFORMACIONIH TEHNOLOGIJA GISIT SOKOBANJA<br>TIN: 114764649<br>Reg. number: 67837169<br>";
     textId45 = "Contact us";
