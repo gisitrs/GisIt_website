@@ -33,7 +33,11 @@
     <style>
         
         html, body {
-  touch-action: pan-y;  /* Blokira sve gestove (pinch-to-zoom, swipe) */
+  /*touch-action: pan-y;   Blokira sve gestove (pinch-to-zoom, swipe) */
+  touch-action: none;        /* Sprečava bilo kakvu touch akciju, uključujući pinch-to-zoom */
+  -webkit-overflow-scrolling: touch;
+  overflow: hidden;          /* Sprečava horizontalni scroll */
+  -webkit-user-select: none; /* Sprečava selektovanje teksta, što može izazvati zoom */
 }
 
 input, textarea, button, select {
