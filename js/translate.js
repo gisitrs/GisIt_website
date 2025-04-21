@@ -79,4 +79,8 @@ function translateToLanguage(languageTexts){
     document.getElementById("textId48").innerHTML = languageTexts.textId48;
     document.getElementById("textId49").innerHTML = languageTexts.textId49;
     document.getElementById("textId50").innerHTML = languageTexts.textId50;
+    document.getElementById("textId51").placeholder = languageTexts.textId51;
+    document.getElementById("textId52").placeholder = languageTexts.textId52;
+    document.getElementById("textId53").placeholder = languageTexts.textId53;
+    document.getElementById("textId54").placeholder = languageTexts.textId54;
 }

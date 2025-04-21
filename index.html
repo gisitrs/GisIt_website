@@ -577,8 +577,8 @@
                         <!--<a href="tel:+381-63-152-34-39">+381 63 152 34 39</a>-->
                         </p>
                     </div>
-                    <!--
-                    <div class="column large-5 tab-12 s-footer__block">
+
+                    <!--<div class="column large-5 tab-12 s-footer__block">
                         <h4 class="h6">Pratite nas</h4 class="h6">
         
                         <ul class="s-footer__list">
@@ -587,13 +587,35 @@
                             <li><a href="#0">Instagram</a></li>
                             <li><a href="#0">Dribbble</a></li>
                         </ul>
-                    </div>
-                    -->
+                    </div>-->
                 </div>
             </div>
 
             <div class="column large-4 medium-12 s-footer__block--end">
-                <a id="textId45" href="mailto:gisitrs@gmail.com" class="btn h-full-width"></a>
+                <section id="contact">
+                    <div class="row">
+                        <div class="column">
+                            <!--<h2 class="h6">Send Us a Message</h2>-->
+                            <form action="/submit" method="post" class="form">
+                                <!--<label for="name">Name</label>-->
+                                <input id="textId51" type="text" id="name" name="name" style="width:100%;" placeholder="Your Name" required>
+                
+                                <!--<label for="email">Email</label>-->
+                                <input id="textId52" type="email" id="email" name="email" style="width:100%;" placeholder="Your Email" required>
+                
+                                <!--<label for="phone">Phone</label>-->
+                                <input id="textId53" type="tel" id="phone" name="phone" style="width:100%;" placeholder="Your Phone Number">
+                
+                                <!--<label for="message">Message</label>-->
+                                <textarea id="textId54" name="message" rows="4" style="width:100%;" placeholder="Your Message" required></textarea>
+                
+                                <button id="textId45" type="submit" class="btn h-full-width"></button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+                <!--<a id="textId45" href="mailto:gisitrs@gmail.com" class="btn h-full-width"></a>-->
 
                 <div class="ss-copyright">
                     <span id="textId46"></span> 
@@ -656,17 +678,18 @@
     ================================================== -->
     <script>
         // Prevent zooming with more than one finger
-document.addEventListener('touchstart', function(e) {
-    if (e.touches.length > 1) {
-        e.preventDefault(); // Prevent zoom
-    }
-}, { passive: false });
+        document.addEventListener('touchstart', function(e) {
+            if (e.touches.length > 1) {
+               e.preventDefault(); // Prevent zoom
+            }
+            }, { passive: false });
 
-// Prevent pinch zooming with gestures
-document.addEventListener('gesturestart', function(e) {
-    e.preventDefault(); // Prevent zoom gesture
-}, { passive: false });
+        // Prevent pinch zooming with gestures
+        document.addEventListener('gesturestart', function(e) {
+            e.preventDefault(); // Prevent zoom gesture
+        }, { passive: false });
     </script>
+
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/englishText.js"></script>
