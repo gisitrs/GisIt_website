@@ -33,16 +33,8 @@
     <style>
         
         html, body {
-  /*touch-action: pan-y;   Blokira sve gestove (pinch-to-zoom, swipe) */
-  touch-action: none;        /* Sprečava bilo kakvu touch akciju, uključujući pinch-to-zoom */
-  -webkit-overflow-scrolling: touch;
-  /*overflow: hidden;           Sprečava horizontalni scroll */
-  -webkit-user-select: none; /* Sprečava selektovanje teksta, što može izazvati zoom */
-}
-
-input, textarea, button, select {
-  font-size: 16px;     /* Potrebno je za blokiranje zooma na inputima (ako je manji od 16px, može uzrokovati zoom) */
-}
+           touch-action: pan-y;   /*Blokira sve gestove (pinch-to-zoom, swipe) */
+        }
     </style>
 
 </head>
@@ -662,6 +654,19 @@ input, textarea, button, select {
 
     <!-- Java Script
     ================================================== -->
+    <script>
+        // Prevent zooming with more than one finger
+document.addEventListener('touchstart', function(e) {
+    if (e.touches.length > 1) {
+        e.preventDefault(); // Prevent zoom
+    }
+}, { passive: false });
+
+// Prevent pinch zooming with gestures
+document.addEventListener('gesturestart', function(e) {
+    e.preventDefault(); // Prevent zoom gesture
+}, { passive: false });
+    </script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/englishText.js"></script>
