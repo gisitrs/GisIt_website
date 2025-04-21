@@ -31,7 +31,15 @@
     <link rel="manifest" href="site.webmanifest">
 
     <style>
-        body {touch-action: pan-y;}
+        
+        html, body {
+  touch-action: pan-y;  /* Blokira sve gestove (pinch-to-zoom, swipe) */
+  overflow: hidden;    /* Onemogućava horizontalni scroll */
+}
+
+input, textarea, button, select {
+  font-size: 16px;     /* Potrebno je za blokiranje zooma na inputima (ako je manji od 16px, može uzrokovati zoom) */
+}
     </style>
 
 </head>
