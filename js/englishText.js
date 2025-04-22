@@ -54,4 +54,8 @@ class englishText {
     textId45 = "Contact us";
     textId46 = "Copyright GisIt © 2025";
     //stextId47 = "Created by <a href=\"https://www.gisit.rs/\">GisIt</a>";
+    textId51 = "Your name";
+    textId52 = "Your email";
+    textId53 = "Your phone number"; 
+    textId54 = "Your message";
 }

@@ -54,4 +54,8 @@ class serbianText {
     textId45 = "Kontaktirajte nas";
     textId46 = "Sadržaj sajta je u vlasništvu GisIt © 2025";
     //textId47 = "Kreirao <a href=\"https://www.gisit.rs/\">GisIt</a>";
+    textId51 = "Vaše ime";
+    textId52 = "Vaš email";
+    textId53 = "Vaš broj telefona";
+    textId54 = "Vaš tekst poruke";
 }
