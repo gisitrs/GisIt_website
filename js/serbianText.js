@@ -38,7 +38,7 @@ class serbianText {
     textId31 = "- Kreiranje modela terena u Civil3D-u ili ArcGIS-u na osnovu raznih setova podataka (LiDAR oblaka tačaka, rastera, geodetskih merenja).<br>- Modeli nude preciznu prezentaciju terena, pomažući inženjerima, planerima i naučnicima u procesu donošenja odluka.";
     textId32 = "Oblak tačaka";
     textId33 = "Konverzija oblaka tačaka u 2D/3D plan";
-    textId34 = "- Kreiranje modela terena u Civil3D-u ili ArcGIS-u na osnovu raznih setova podataka (LiDAR oblaka tačaka, rastera, geodetskih merenja).<br>- Modeli nude preciznu prezentaciju terena, pomažući inženjerima, planerima i naučnicima u procesu donošenja odluka.";
+    textId34 = "- Digitalizacija oblaka tačaka.<br>- Obrada oblaka tačaka radi izdvajanja neophodnih elemenata za izradu topografske karte.<br>- Izrada planova u odgovarajućem softveru (AutoCAD, Civil3D, ArcGIS, QGIS).<br>- Prikaz podataka u različitim formatima u zavisnosti od željenog načina prezentacije podataka (PDF dokumenti, web mapa itd.)";
     textId35 = "Oblak tačaka";
     textId36 = "Klasifikacija oblaka tačaka";
     textId37 = "- Klasifikacija oblaka tačaka je uglavnom polu-automatski proces, gde je mogućnost automatizacije definisan kvalitetom pre-procesiranja oblaka tačaka.<br>- Klasifikovan oblak tačaka nudi nekoliko benefita: unapređuje analizu podataka, mogućnost mapiranja i vizulelizacije, omogućava automatizaciju procesiranja, filtriranje i bolje razumevanje podataka.";
