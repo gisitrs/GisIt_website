@@ -56,6 +56,6 @@ class englishText {
     //stextId47 = "Created by <a href=\"https://www.gisit.rs/\">GisIt</a>";
     textId51 = "Your name";
     textId52 = "Your email";
-    textId53 = "Your phone number"; 
+    textId53 = "Subject"; 
     textId54 = "Your message";
 }
