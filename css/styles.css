@@ -2244,6 +2244,10 @@ select {
     border-radius: 4px;
 }
 
+#textId51:not(:placeholder-shown), #textId52:not(:placeholder-shown), #textId53:not(:placeholder-shown), #textId54:not(:placeholder-shown) {
+    color: white;
+}
+
 .ss-custom-select {
     position: relative;
     padding: 0;
