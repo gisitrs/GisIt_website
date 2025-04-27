@@ -619,8 +619,11 @@
 
                                 <!--<label for="message">Message</label>-->
                                 <textarea id="textId54" name="message" rows="4" style="width:100%;" placeholder="Your Message" required></textarea>
+                                
+                                <!-- Google reCAPTCHA -->
+                                <div class="g-recaptcha" data-sitekey="6LcYTiYrAAAAAIWrBlMATZkL2__l6_wA1BhEUBaV" style="width:100%;"></div>
 
-                                <button id="textId45" type="submit" class="btn h-full-width" onclick="sendMail()"></button>
+                                <button id="textId45" type="submit" class="btn h-full-width" style="margin-top:30px;" onclick="sendMail()"></button>
                             </form>
                         </div>
                     </div>
@@ -701,6 +704,8 @@
         }, { passive: false });
     </script>
 
+    <!-- Include reCAPTCHA Script -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/englishText.js"></script>
