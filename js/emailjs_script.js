@@ -2,7 +2,7 @@ function sendMail(){
     // Check if reCAPTCHA is completed
     const recaptchaResponse = grecaptcha.getResponse();
     if (!recaptchaResponse) {
-        alert("Please complete the reCAPTCHA.");
+        alert("Molimo Vas izvršite verifikaciju ispod forme.\n\nPlease complete the verification below the form.");
         return;
     }
 
@@ -14,11 +14,8 @@ function sendMail(){
         "g-recaptcha-response": recaptchaResponse // Include reCAPTCHA response
     }
     
-    const emailValue = document.getElementById("textId52").value;
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    
     emailjs.send("service_jb8kvvr", "template_e5pl0q7", parms)
-    alert("Vaša poruka je poslata! Javićemo vam se u najkraćem roku.\n\nYour message is sent! We'll contact you soon.");
+    alert("Vaša poruka je poslata! Javićemo Vam se u najkraćem roku.\n\nYour message is sent! We'll contact you soon.");
     
     grecaptcha.reset(); // Reset reCAPTCHA
     document.getElementById("textId53").value;
