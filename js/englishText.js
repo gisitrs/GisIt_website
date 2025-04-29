@@ -52,6 +52,7 @@ class englishText {
     textId43 = "About agency";
     textId44 = "STEFAN STAMENKOVIĆ PR AGENCIJA ZA INŽENJERSKO SAVETOVANJE I TEHNIČKA REŠENJA U OBLASTI GEOMATIKE I INFORMACIONIH TEHNOLOGIJA GISIT SOKOBANJA<br>TIN: 114764649<br>Reg. number: 67837169<br>";
     textId45 = "Send message";
+    textId45a = "Sending...";
     textId46 = "Copyright GisIt © 2025";
     //stextId47 = "Created by <a href=\"https://www.gisit.rs/\">GisIt</a>";
     textId51 = "Your name";

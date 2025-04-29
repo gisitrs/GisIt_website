@@ -52,6 +52,7 @@ class serbianText {
     textId43 = "O agenciji";
     textId44 = "STEFAN STAMENKOVIĆ PR AGENCIJA ZA INŽENJERSKO SAVETOVANJE I TEHNIČKA REŠENJA U OBLASTI GEOMATIKE I INFORMACIONIH TEHNOLOGIJA GISIT SOKOBANJA<br>PIB: 114764649<br>Matični broj: 67837169<br>";
     textId45 = "Pošalji poruku";
+    textId45a = "Šalje se...";
     textId46 = "Sadržaj sajta je u vlasništvu GisIt © 2025";
     //textId47 = "Kreirao <a href=\"https://www.gisit.rs/\">GisIt</a>";
     textId51 = "Vaše ime";

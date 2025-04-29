@@ -1,32 +1,47 @@
-function sendMail(){
-    // Check if reCAPTCHA is completed
-    const recaptchaResponse = grecaptcha.getResponse();
-    if (!recaptchaResponse) {
-        alert("Molimo Vas izvršite verifikaciju ispod forme.\n\nPlease complete the verification below the form.");
+document.getElementById('textId45').addEventListener('click', sendMail);
+
+function sendMail(event){
+    
+    event.preventDefault();
+
+    //const recaptchaResponse = grecaptcha.getResponse();
+    //if (!recaptchaResponse) {
+    //    alert("Molimo Vas izvršite verifikaciju ispod forme.\n\nPlease complete the verification below the form.");
+    //    return;
+    //}
+
+    var language = document.getElementById("translateButton").innerHTML;
+    var languageTexts;
+    if (language == 'ENG'){ // obrnuto je jer je trenutna vrednost (ENG) za promenu na taj jezik
+        languageTexts = new serbianText();
+    }
+    else if (language == 'SRB'){
+        languageTexts = new englishText();
+    }
+
+    const btn = document.getElementById('textId45');
+    const form = document.getElementById('form');
+
+    if (!form.checkValidity()) {
+        form.reportValidity(); // Show built-in validation messages
+        //event.preventDefault(); // Prevent form submission if not valid
         return;
     }
 
-    let parms = {
-        subject : document.getElementById("textId53").value,
-        email : document.getElementById("textId52").value,
-        name : document.getElementById("textId51").value,
-        message : document.getElementById("textId54").value,
-        "g-recaptcha-response": recaptchaResponse // Include reCAPTCHA response
-    }
-    
-    emailjs.send("service_jb8kvvr", "template_e5pl0q7", parms)
-    alert("Vaša poruka je poslata! Javićemo Vam se u najkraćem roku.\n\nYour message is sent! We'll contact you soon.");
-    
-    grecaptcha.reset(); // Reset reCAPTCHA
-    document.getElementById("textId53").value;
-    document.getElementById("textId52").value;
-    document.getElementById("textId51").value;
-    document.getElementById("textId54").value;
+    btn.disabled = true;
+    btn.value = languageTexts.textId45a;
 
-    /*
-    if (emailPattern.test(emailValue)) {
-        emailjs.send("service_jb8kvvr", "template_e5pl0q7", parms).then(alert("Vaša poruka je poslata! Javićemo vam se u najkraćem roku.\n\nYour message is sent! We'll contact you soon."));
-        //return;
-    }
-    */
+    emailjs.sendForm("service_jb8kvvr", "template_e5pl0q7", form)
+    .then(() => {
+        alert("Vaša poruka je poslata! Javićemo vam se u najkraćem roku.\n\nYour message is sent! We'll contact you soon.");
+        btn.value = languageTexts.textId45;
+        btn.disabled = false;
+        form.reset(); 
+    }, (err) => {
+        alert(JSON.stringify(err));
+        btn.value = languageTexts.textId45;
+        btn.disabled = false;
+    });
+
+    //grecaptcha.reset(); // Reset reCAPTCHA
 }

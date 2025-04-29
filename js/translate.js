@@ -73,7 +73,7 @@ function translateToLanguage(languageTexts){
     document.getElementById("textId42").innerHTML = languageTexts.textId42;
     document.getElementById("textId43").innerHTML = languageTexts.textId43;
     document.getElementById("textId44").innerHTML = languageTexts.textId44;
-    document.getElementById("textId45").innerHTML = languageTexts.textId45;
+    document.getElementById("textId45").value = languageTexts.textId45;
     document.getElementById("textId46").innerHTML = languageTexts.textId46;
     //document.getElementById("textId47").innerHTML = languageTexts.textId47;
     document.getElementById("textId48").innerHTML = languageTexts.textId48;
